@@ -9,7 +9,7 @@ class VigenereCipheringMachine {
 
     if (!message || !key) throw new Error();
 
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     message = message.toUpperCase();
     key = key.toUpperCase();
     let result = '';
@@ -32,7 +32,7 @@ class VigenereCipheringMachine {
   decrypt(message, key) {
     if (!message || !key) throw new Error();
 
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     message = message.toUpperCase();
     key = key.toUpperCase();
     let result = '';
